@@ -1,0 +1,101 @@
+body {
+    -webkit-animation: random 120s infinite;
+    animation: random 120s infinite;
+}
+@keyframes  random {
+   1% { background-color: #1E0F1C; } 
+   3% { background-color: #A7001E; } 
+   5% { background-color: #E2E9C0; } 
+   7% { background-color: #7AA95C; } 
+   9% { background-color: #955149; } 
+   11% { background-color: #CE6A6B; } 
+   13% { background-color: #EBACA2; } 
+   15% { background-color: #BED3C3; }
+   17% { background-color: #4A919E; } 
+   19% { background-color: #212E53; } 
+   21% { background-color: #F99F72; } 
+   23% { background-color: #F1895C; } 
+   25% { background-color: #FFFFFF; } 
+   27% { background-color: #C5C6C6; } 
+   29% { background-color: #2E3244; } 
+   31% { background-color: #A3232B; } 
+   33% { background-color: #D7C998; } 
+   35% { background-color: #D89839; } 
+   37% { background-color: #BC632E; } 
+   39% { background-color: #263B46; } 
+   41% { background-color: #7DC2A5; } 
+   43% { background-color: #9FCDA8; } 
+   45% { background-color: #C7DDC5; } 
+   47% { background-color: #E3EBD0; } 
+   49% { background-color: #F1F1D3; } 
+   51% { background-color: #FFDFDB; } 
+   53% { background-color: #FBBFB8; } 
+   55% { background-color: #F79F95; } 
+   57% { background-color: #F38071; } 
+   59% { background-color: #F0604D; } 
+   61% { background-color: #70C7C6; } 
+   63% { background-color: #7B9DD2; } 
+   65% { background-color: #C7DDC5; } 
+   67% { background-color: #BBB4DA; } 
+   69% { background-color: #DAD4DE; } 
+   71% { background-color: #620F46; } 
+   73% { background-color: #9F0328; } 
+   75% { background-color: #FB8E2C; } 
+   77% { background-color: #EA6615; } 
+   79% { background-color: #0F515F; } 
+}
+
+.titre
+{
+    margin: 100px 0;
+    padding: 50px;
+    border: 10px solid #999;
+    font-family: 'Courier New', Courier, monospace;
+    font: 200;
+    font-style: oblique;
+    -webkit-flow-into: initial;
+    color: rgb(61, 177, 181);
+}
+
+div
+{
+ background:#ffd39a;
+ width:100px;
+ height:100px;
+ transition: all 60s ease-out;
+}
+
+@keyframes mymove{
+    form{background-color: #38dc58; }
+    to{background-color: #9b40f1;}
+ }
+
+@keyframes mymove0 {
+    from {top: 0px;}
+    to {top: 400px;}
+
+}
+
+.center
+{ 
+ position:relative;
+
+}
+
+.right
+    { 
+    background:#7FB196;
+    margin:auto;
+    position:absolute;
+    right: 1200px;     
+    animation: mymove0 4s infinite;
+}
+
+.left
+    { 
+        background:#DF775C;
+     margin:auto;
+     position:relative;
+left: 500px;     
+animation: mymove0 8s infinite;
+}
